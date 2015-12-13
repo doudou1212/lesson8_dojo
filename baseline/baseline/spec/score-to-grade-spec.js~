@@ -1,0 +1,18 @@
+describe('score_to_grade_spec',function(){
+var score = [59,69,79,89,99];
+it("contains spec with an expectation of D", function() {
+    expect(score[0]).toBe('D');
+  });
+it("contains spec with an expectation of C", function() {
+    expect(score[1]).toBe('C');
+  });
+it("contains spec with an expectation of B", function() {
+    expect(score[2]).toBe('B');
+  });
+it("contains spec with an expectation of A", function() {
+    expect(score[3]).toBe('A');
+  });
+it("contains spec with an expectation of S", function() {
+    expect(score[4]).toBe('S');
+  });
+});
